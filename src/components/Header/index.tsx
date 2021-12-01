@@ -1,8 +1,14 @@
+import logoImg from '../../assets/logo.svg';
+import { Container, Content } from './styles';
 
 export default function Header() {
   return (
-    <div>
-      <h1>Header</h1>
-    </div>
+    <Container>
+      <Content>
+      <img src={logoImg} alt="dt-money" />
+
+      <button type="button">Nova transsaão</button>
+      </Content>
+    </Container>
   )
 }
