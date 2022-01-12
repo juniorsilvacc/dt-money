@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Sobre o projeto
+App web para gerenciamento financeiro
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Captura de tela de 2022-01-12 13-11-20](https://user-images.githubusercontent.com/43589505/149178551-23a37c86-cf9f-4a97-a385-5e254f4a46f2.png)
+![Captura de tela de 2022-01-12 13-10-47](https://user-images.githubusercontent.com/43589505/149178561-a645e6db-e72f-4236-bcc3-c616d023d726.png)
 
-## Available Scripts
+## Tecnologias utilizadas
+### Frontend
+  - ReactJs
+  - TypeScript
+  - Context
+  - Axios
+  - Styled-Components
+  - Miragejs
+  
+# Como executar o projeto
 
-In the project directory, you can run:
+## Pré-requitos: npm/yarn 
 
-### `yarn start`
+```bash
+# clonar repositório  
+git clone https://github.com/juniorsilvacc/dt-money.git
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+# entrar na pasta do projeto mobile
+cd dt-money
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# instalar dependências
+yarn install
 
-### `yarn test`
+# executar projeto
+yarn start
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Autor
 
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+https://www.linkedin.com/in/juniiorsilva-fullstack/
